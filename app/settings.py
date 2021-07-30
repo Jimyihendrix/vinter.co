@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'config',
-    'app.apps.ConfigConfig' # localhost/admin -> user = jimy password = mirrorUser
+    'app.apps.ConfigConfig', # localhost/admin -> user = jimy password = mirrorUser
 ]
 
 
