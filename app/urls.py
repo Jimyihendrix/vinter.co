@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    #path('path/you/wish/')
+    #path('path/you/wish/'), if path is empty ('') = home page
     path('', include('config.urls')),
     path('admin/', admin.site.urls),
 ]
